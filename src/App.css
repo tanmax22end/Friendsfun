@@ -1,0 +1,86 @@
+.App {
+    text-align: center;
+    background-color: aquamarine;
+}
+body{
+    background-image: url(logo.png);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Mystyle{
+    font-size: larger;
+    color:blueviolet;
+    align-content:center;
+    padding: 50px 10px 10px 10px;
+    text-align: center;
+    margin: 0px 0px;
+    background-color: white;
+    height: 300px;
+    width: 100%;
+}
+.Button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+    .Button:hover {
+        background-color: #3e8e41
+    }
+
+    .Button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+        .input-style {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    text-decoration-color:blueviolet;
+}
